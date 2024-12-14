@@ -1,0 +1,42 @@
+[2024-12-13T17:35:30.900+0000] {processor.py:186} INFO - Started process (PID=727) to work on /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:35:30.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw_dag.py for tasks to queue
+[2024-12-13T17:35:30.903+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:35:30.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:35:30.982+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:35:30.978+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2024-12-13T17:35:30.984+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:35:31.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw_dag.py took 0.115 seconds
+[2024-12-13T17:36:01.337+0000] {processor.py:186} INFO - Started process (PID=791) to work on /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:36:01.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw_dag.py for tasks to queue
+[2024-12-13T17:36:01.341+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:36:01.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:36:01.408+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:36:01.403+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/hw_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/hw_dag.py", line 15, in <module>
+    from modules.pipeline import pipeline
+ModuleNotFoundError: No module named 'modules'
+[2024-12-13T17:36:01.409+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:36:01.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw_dag.py took 0.100 seconds
+[2024-12-13T17:36:31.759+0000] {processor.py:186} INFO - Started process (PID=855) to work on /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:36:31.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw_dag.py for tasks to queue
+[2024-12-13T17:36:31.763+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:36:31.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:36:32.651+0000] {processor.py:925} INFO - DAG(s) 'car_price_prediction' retrieved from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:36:32.749+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:36:32.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T17:36:32.770+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:36:32.770+0000] {dag.py:4180} INFO - Setting next_dagrun for car_price_prediction to 2024-12-10 15:00:00+00:00, run_after=2024-12-11 15:00:00+00:00
+[2024-12-13T17:36:32.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw_dag.py took 1.049 seconds
+[2024-12-13T17:37:02.994+0000] {processor.py:186} INFO - Started process (PID=930) to work on /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:37:02.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw_dag.py for tasks to queue
+[2024-12-13T17:37:02.998+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:37:02.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:37:03.826+0000] {processor.py:925} INFO - DAG(s) 'car_price_prediction' retrieved from /opt/airflow/dags/hw_dag.py
+[2024-12-13T17:37:03.842+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:37:03.841+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T17:37:03.861+0000] {logging_mixin.py:190} INFO - [2024-12-13T17:37:03.861+0000] {dag.py:4180} INFO - Setting next_dagrun for car_price_prediction to 2024-12-13 15:00:00+00:00, run_after=2024-12-14 15:00:00+00:00
+[2024-12-13T17:37:03.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw_dag.py took 0.893 seconds
